@@ -1,74 +1,47 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Privacy Policy — Ping Pong AI Arena</title>
-<style>body{font-family:system-ui,Arial;max-width:880px;margin:40px auto;padding:0 16px;line-height:1.55}.muted{color:#555}</style>
-</head><body>
-<h1>Privacy Policy — Ping Pong AI Arena</h1>
-<p class="muted">Effective date: [DATE]</p>
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ping Pong AI Arena</title>
+  <style>
+    body{font-family:system-ui,Arial;max-width:900px;margin:40px auto;padding:0 16px;line-height:1.55}
+    .card{border:1px solid #ddd;border-radius:14px;padding:16px;margin:16px 0}
+    code{background:#f6f6f6;padding:2px 6px;border-radius:8px}
+  </style>
+</head>
+<body>
+  <h1>Ping Pong AI Arena</h1>
+  <p>BYOK Chrome extension that runs AI-vs-AI debate loops in Chrome Side Panel.</p>
 
-<p>Ping Pong AI Arena is a Chrome extension that runs AI-vs-AI debates using your own API keys (“BYOK”).</p>
+  <div class="card">
+    <h2>What we sell</h2>
+    <p><b>Ping Pong AI Arena Pro</b> — a digital upgrade that unlocks higher turn limits / premium features.</p>
+    <p><b>Delivery:</b> After purchase, customers receive an activation phrase to enter in the extension Settings.</p>
+  </div>
 
-<h2>What we collect</h2>
-<ul>
-<li>We do not require accounts.</li>
-<li>We do not collect browsing history, page content, cookies, or website traffic.</li>
-<li>The extension stores locally on your device: your API key (if entered) and your settings/preferences.</li>
-</ul>
+  <div class="card">
+    <h2>Privacy (BYOK + Local Storage)</h2>
+    <ul>
+      <li>API keys and settings are stored locally using <code>chrome.storage.local</code>.</li>
+      <li>Prompts are sent directly from your browser to your selected AI provider endpoints.</li>
+      <li>No developer-owned prompt relay servers.</li>
+      <li>We do not collect browsing history, page content, cookies, or website traffic.</li>
+    </ul>
+  </div>
 
-<h2>How we use data</h2>
-<ul>
-<li>Your API key is used only to send requests directly to the AI provider endpoints you configure so the extension can return results.</li>
-</ul>
+  <div class="card">
+    <h2>Support</h2>
+    <p>Email: <b>YOUR_SUPPORT_EMAIL</b></p>
+  </div>
 
-<h2>Storage</h2>
-<ul>
-<li>Keys and settings are stored locally using <code>chrome.storage.local</code>.</li>
-<li>We do not store your key or prompts on developer-owned servers.</li>
-</ul>
+  <div class="card">
+    <h2>Policies</h2>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+    <p><a href="terms.html">Terms of Service</a></p>
+    <p><b>Refund policy:</b> Refunds available within 7 days upon request (digital product). Contact support.</p>
+  </div>
 
-<h2>Sharing</h2>
-<ul>
-<li>We do not sell personal data.</li>
-<li>Prompts are sent only to the AI provider you configure; their policies govern their handling.</li>
-</ul>
-
-<h2>Deletion</h2>
-<ul>
-<li>You can remove your key/settings using Clear Key / Reset options in the extension.</li>
-<li>Uninstalling the extension removes local extension storage.</li>
-</ul>
-
-<h2>Contact</h2>
-<p>Support: <strong>PASTE YOUR SUPPORT EMAIL HERE</strong></p>
-<p><a href="index.html">Back to home</a></p>
-</body></html>
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Terms of Service — Ping Pong AI Arena</title>
-<style>body{font-family:system-ui,Arial;max-width:880px;margin:40px auto;padding:0 16px;line-height:1.55}.muted{color:#555}</style>
-</head><body>
-<h1>Terms of Service — Ping Pong AI Arena</h1>
-<p class="muted">Effective date: [DATE]</p>
-
-<h2>Bring Your Own Key (BYOK)</h2>
-<ul>
-<li>You provide your own API key(s) for AI providers.</li>
-<li>You are responsible for usage, billing, and compliance with provider terms.</li>
-</ul>
-
-<h2>No financial advice</h2>
-<p>Outputs are informational only and are not financial, legal, or professional advice.</p>
-
-<h2>Pro upgrade</h2>
-<p>Ping Pong AI Arena Pro unlocks premium features such as higher turn limits. Pro is delivered digitally via activation phrase or an account-free unlock method.</p>
-
-<h2>No warranty</h2>
-<p>The extension is provided “as is.” We do not guarantee accuracy, uptime, or results.</p>
-
-<h2>Limitation of liability</h2>
-<p>We are not liable for losses arising from use of the extension.</p>
-
-<h2>Support</h2>
-<p>Support: <strong>PASTE YOUR SUPPORT EMAIL HERE</strong></p>
-<p><a href="index.html">Back to home</a></p>
-</body></html>
+  <p>Not affiliated with any AI provider. Informational tool only (not financial advice).</p>
+</body>
+</html>
